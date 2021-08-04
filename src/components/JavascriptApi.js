@@ -84,20 +84,6 @@ const slidesBtn = {
     // marginLeft : "-20px"
 }
 
-const prevButton = {
-    color : "#a2d9ff",
-    border: "none",
-    cursor : 'pointer',
-    background : "transparent"
-}
-
-const nextButton = {
-    color : "#a2d9ff",
-    border: "none",
-    cursor : 'pointer',
-    background : "transparent",
-    // marginRight : "100px"
-}
 
 const projectInformation = [
     {

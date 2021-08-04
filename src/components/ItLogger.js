@@ -52,7 +52,7 @@ const projectType = {
     whiteSpace :"nowrap"
 }
 
-function ItLogger({}) {
+function ItLogger() {
   return(
     <div style={containerProjectstyles} className="containerProject">
         <div style={{marginBottom:"150px"}} className="iFrame">
@@ -65,7 +65,7 @@ function ItLogger({}) {
         {/* <div className = "vertical"></div> */}
 
         <div style={projectInfo} className="project-info">
-            <h2 className="project-title">Github Finder React App</h2>
+            <h2 className="project-title">IT Logger React-Redux</h2>
             <p style={subheading}>React App to search Github Users</p>
             <p style={projectDescription}>The main objective of this project is to use open source Github Api and fetch Github users, Individual User Info and their latest repos using axios and show them in UI. This project was first built using class based components, then it was refactored to funcional component where Hooks like useState() and useEffect() were used and finally the project was refactored using Context Api and Hooks like useContext() and useReducer() and deployed to Netlify.
             <br/>

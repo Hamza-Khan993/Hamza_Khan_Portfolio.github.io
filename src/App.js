@@ -10,14 +10,14 @@ import JavaScriptApiProject from './components/JavascriptApi';
 import SkillSection from './components/SkillSection';
 import Roscrea from './components/MarketingWebsite';
 import GitHubFinderReact from './components/GitHubFinderReact';
-import ItLogger from './components/ItLogger';
+// import ItLogger from './components/ItLogger';
 
 
 
 function App() {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <Header />
             <ProjectSection name="Skills & Technologies" />
             <SkillSection />
@@ -28,7 +28,6 @@ function App() {
             <JavaScriptProject />
             <JavaScriptApiProject />
             <GitHubFinderReact />
-            <ItLogger />
         </div>
     )
 }

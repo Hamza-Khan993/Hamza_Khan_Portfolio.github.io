@@ -66,7 +66,7 @@ function SkillSection() {
         <div style={skillsContainer}>
             {Skills.map(skill => (
                 <div >
-                <img style={skillIcons}  src={skill.images}/>
+                <img style={skillIcons} alt="" src={skill.images}/>
                 <h3>{skill.name}</h3>
             </div>
 

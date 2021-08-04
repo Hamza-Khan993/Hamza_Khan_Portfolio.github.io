@@ -8,7 +8,7 @@ function Navbar() {
     <div>
       <nav className="navbar">
         <ul>
-           <a href="#"><li>Profile</li></a>
+           <a href="#!"><li>Profile</li></a>
           <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
