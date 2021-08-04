@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "CEO",
+        "id" : 1,
+        "name" : "Hamza",
+        "Company" : "Tesla"
+    },
+    {
+        "title" : "CEO",
+        "id" : 2,
+        "name" : "Huzaifa",
+        "Company" : "bhm"
+    },
+    {
+        "title" : "CEO",
+        "id" : 3,
+        "name" : "aasiya",
+        "Company" : "bio"
+    },
+    {
+        "title" : "CEO",
+        "id" : 4,
+        "name" : "Azim",
+        "Company" : "BHM"
+    }
+]
