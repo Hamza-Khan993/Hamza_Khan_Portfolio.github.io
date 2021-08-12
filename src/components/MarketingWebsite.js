@@ -6,9 +6,10 @@ import React from "react";
 
 const containerProjectstyles  = {
     display : "grid",
-    gridTemplateColumns: "1.5fr  2fr",
+    gridTemplateColumns: "2fr  2fr",
     height : "auto",
     width : "auto",
+    justifyContent:"space-around",
     // overflow : "hidden",
     // overflowY : "hidden",
     // backgroundColor : "#636664",
@@ -80,7 +81,7 @@ function Roscrea() {
 
         {/* <div style = {Vertical} className = "vertical"></div> */}
 
-        <div style = {IframeStyle}className="iFrame">
+        <div style = {IframeStyle} className="iFrame">
             <div id="inner">
                 <iframe className="animepage" src="/Roscrea Website/index.html"
                 height="650" width="380px" seamless="seamless" style={{border:"none"}} title="Iframe Example"></iframe>

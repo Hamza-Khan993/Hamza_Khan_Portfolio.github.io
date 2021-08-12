@@ -96,6 +96,10 @@ header {
   color: white
 }
 
+.j-projectapi-container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
 
 
 .project-title {
@@ -164,19 +168,25 @@ h3 {
   font-size: 25px;
 }
 
+.slide-btn:hover {
+  /* box-shadow: 10px 10px 10px 0px rgb(229, 233, 231); */
+  background-color: rgb(229, 233, 231);
+  box-shadow: rgb(229, 233, 231) 0px 30px 60px -12px inset, rgb(229, 233, 231) 0px 18px 36px -18px inset;
+  border-radius:50px
 
+}
 
-.next-Btn  {
+/* .next-Btn  {
   border :none;
   color : #a2d9ff;
   /* margin-right: 100px; */
-  border-radius: 50px;
-  /* ma */
-}
+  /* border-radius: 50px; */
+  /* ma */ */
 
-.slidesframe {
-  border-radius: 70px;
-  overflow: hidden;
+
+  .slidesFrame {
+  border-radius: 177px;
+  /* overflow: hidden; */
 }
 
 /* .slide:nth-child(1) {
@@ -258,11 +268,11 @@ h3 {
   transition: all 0.25s ease-in-out;
   /* font-size: 25px; */
   color:#979e97;
-  background-color : #a2d9ff;
+  background-color : rgb(15, 36, 62);
 }
 
 .Resume:hover {
-  color:#a2d9ff;
+  color:rgb(15, 36, 62);
   background-color : #979e97;
 }
 

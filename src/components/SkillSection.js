@@ -38,23 +38,28 @@ const skillIcons =  {
 // }
 
 const Skills = [ 
-    {
+    {   
+        id:1,
         images : "/images/html.png",
         name : "HTML"
     },
-    {
+    {   
+        id:2,
         images : "/images/css.png",
         name : "CSS"
     },
-    {
+    {   
+        id:3,   
         images : "/images/javascript.png",
         name : "JavaScript"
     },
-    {
+    {   
+        id:4,
         images : "/images/logo192.png",
         name : "React"
     },
-    {
+    {   
+        id:5,
         images : "/images/python.png",
         name : "Python"
     }
@@ -64,9 +69,9 @@ const Skills = [
 function SkillSection() {
     return (
         <div style={skillsContainer}>
-            {Skills.map(skill => (
-                <div >
-                <img style={skillIcons} alt="" src={skill.images}/>
+            {Skills.map(skill => ( 
+                <div key={skill.id}>
+                <img style={skillIcons} alt="" src={skill.images} />
                 <h3>{skill.name}</h3>
             </div>
 
