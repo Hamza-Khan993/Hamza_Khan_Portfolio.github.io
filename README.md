@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+The profile is deployed on Netlify.
+
+Please Visit : (http://hamza-khan-profile.netlify.app)
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
